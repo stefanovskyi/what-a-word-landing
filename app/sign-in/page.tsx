@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 export const metadata = {
   title: "Sign in",
   description:
-    "Sign in to What a Word to start translating Ukrainian to Polish in real time.",
+    "Sign in to What a Word to start translating any language to Polish in real time.",
 };
 
 function GoogleGlyph() {
@@ -72,7 +72,7 @@ export default function SignInPage() {
                 Welcome
               </h1>
               <p className="mt-2 text-sm text-[var(--text-muted)] sm:text-base">
-                Sign in to start translating Ukrainian to Polish.
+                Sign in to start translating any language to Polish.
               </p>
             </div>
 

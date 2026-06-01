@@ -1,27 +1,28 @@
 # What a Word
 
-**Speak Ukrainian, hear Polish. Instantly.**
+**Speak any language, hear Polish. Instantly.**
 
-A real-time voice interpreter that turns spoken Ukrainian into spoken and written Polish with near-zero latency. Hold the mic, speak, release — and hear yourself in Polish.
+A real-time voice interpreter that turns any spoken language into spoken and written Polish with near-zero latency. Hold the mic, speak, release — and hear yourself in Polish.
 
 ---
 
 ## Your voice, in Polish, in real time.
 
-What a Word is a low-latency voice interpreter built for one job and built to do it perfectly: translating spoken Ukrainian into Polish, instantly.
+What a Word is a low-latency voice interpreter built for one job and built to do it perfectly: translating speech into Polish, instantly.
 
-Press and hold the mic, say your sentence, and release — your words appear as Ukrainian text on screen while the Polish translation streams back as natural speech and text in the same breath. No menus, no language pickers, no setup friction. Just one button between you and a conversation.
+Press and hold the mic, say your sentence in whatever language is on your tongue, and release — your words appear transcribed on screen while the Polish translation streams back as natural speech and text in the same breath. The source language is auto-detected, so there are no menus, no language pickers, no setup friction. Just one button between you and a conversation.
 
-Powered by Google's Gemini Live API and installable straight to your home screen as a Progressive Web App.
+Powered by Google's Gemini Live API — which understands a broad range of spoken languages — and installable straight to your home screen as a Progressive Web App.
 
 ---
 
 ## Features
 
-- **Real-time voice-to-voice** — Speak Ukrainian, hear fluent Polish back with minimal delay, synchronized speech and text.
+- **Real-time voice-to-voice** — Speak any language, hear fluent Polish back with minimal delay, synchronized speech and text.
+- **Auto-detect source language** — Gemini Live identifies what you're speaking. You don't pick a language; you just talk.
 - **One-button simplicity** — A single interaction bubble controls everything. Hold to speak, release to translate. Nothing to learn.
 - **Installable PWA** — Add it to your home screen and launch it like a native app. Works offline-ready, no app store required.
-- **See it as you say it** — Watch your Ukrainian transcribed live on top, and the Polish translation build word-by-word below.
+- **See it as you say it** — Watch your speech transcribed live on top, and the Polish translation build word-by-word below.
 - **Private by design** — Your API key stays on your device. No conversation history, no telemetry, no tracking.
 - **Secure sign-in** — Authenticate with Clerk and start translating in seconds.
 
@@ -30,20 +31,20 @@ Powered by Google's Gemini Live API and installable straight to your home screen
 ## How it works
 
 1. **Sign in** — One tap with secure Clerk authentication.
-2. **Hold & speak** — Press the mic button and say it in Ukrainian.
+2. **Hold & speak** — Press the mic button and say it in any language Gemini Live supports.
 3. **Release & hear** — Get the Polish translation as natural speech and on-screen text, instantly.
 
 ---
 
 ## Why it exists
 
-Crossing the language barrier between Ukrainian and Polish shouldn't require a clunky app, a stack of menus, or a noticeable wait. What a Word strips interpretation down to its essence: one button, one purpose, one fluid moment between speaking and being understood. Built as a Progressive Web App on Next.js and powered by Google's Gemini Live streaming model, it captures your voice, transcribes it in real time, and returns natural Polish speech and text almost as fast as you can talk. Whether you're navigating daily life in Poland, helping a newcomer, or bridging a quick conversation, What a Word turns "I don't speak Polish" into a non-issue.
+Helping someone navigate Poland — a Ukrainian neighbor settling in, a friend visiting from anywhere, a colleague on a quick call — shouldn't require a clunky app, a stack of menus, or a noticeable wait. What a Word strips interpretation down to its essence: one button, one target language, one fluid moment between speaking and being understood. Built as a Progressive Web App on Next.js and powered by Google's Gemini Live streaming model, it captures your voice, transcribes it in real time, and returns natural Polish speech and text almost as fast as you can talk. What a Word turns "I don't speak Polish" into a non-issue — no matter what language you do speak.
 
 ---
 
 ## Scope
 
-Direction: **Ukrainian → Polish only.** One direction, no language picker. The product is intentionally narrow so the interaction can stay this simple.
+Output language: **Polish, always.** Input language: **any language Gemini Live understands** — auto-detected, no picker. The product is intentionally narrow on the target side so the interaction can stay this simple.
 
 ---
 
@@ -108,7 +109,7 @@ design-system/
 
 ## Design system in one line
 
-Liquid-glass + spatial-UI hybrid over a warm cream base. Bilingual brand palette: Ukrainian blue `#2A5BD7`, wheat gold `#F2C94C`, Polish crimson `#D9534F`, cream `#F4F1EA`. Inter for everything; Inter Tight for the hero. Frosted translucent panels with backdrop-blur 18–24px, layered depth, a slow-drifting gradient mesh background. All motion respects `prefers-reduced-motion`.
+Liquid-glass + spatial-UI hybrid over a warm cream base. Brand palette: source-blue `#2A5BD7`, wheat gold `#F2C94C`, Polish crimson `#D9534F`, cream `#F4F1EA`. Inter for everything; Inter Tight for the hero. Frosted translucent panels with backdrop-blur 18–24px, layered depth, a slow-drifting gradient mesh background. All motion respects `prefers-reduced-motion`.
 
 ---
 

@@ -21,7 +21,7 @@ const features = [
   {
     icon: Radio,
     title: "Real-time voice-to-voice",
-    body: "Speak Ukrainian, hear fluent Polish back with minimal delay. Speech and text stay in sync.",
+    body: "Speak any language, hear fluent Polish back with minimal delay. Speech and text stay in sync.",
   },
   {
     icon: CircleDot,
@@ -36,7 +36,7 @@ const features = [
   {
     icon: Captions,
     title: "See it as you say it",
-    body: "Watch your Ukrainian transcribed live on top, and the Polish translation build word-by-word below.",
+    body: "Watch your speech transcribed live on top, and the Polish translation build word-by-word below.",
   },
   {
     icon: ShieldCheck,
@@ -59,7 +59,7 @@ const steps = [
   {
     n: "02",
     title: "Hold & speak",
-    body: "Press the mic and say it in Ukrainian.",
+    body: "Press the mic and say it in any language Gemini Live supports.",
   },
   {
     n: "03",
@@ -83,14 +83,14 @@ export default function Home() {
                 style={{ animationDelay: "0ms" }}
               >
                 <span className="h-1.5 w-1.5 rounded-full bg-[var(--ua-blue)]" />
-                Ukrainian → Polish
+                Any language → Polish
               </p>
 
               <h1
                 className="hero-fade font-display mt-5 text-[clamp(2.5rem,6vw,5.25rem)] font-semibold leading-[1.02] tracking-[-0.04em] text-[var(--text-primary)]"
                 style={{ animationDelay: "80ms" }}
               >
-                Speak Ukrainian,
+                Speak any language,
                 <br />
                 hear Polish.{" "}
                 <span className="bg-gradient-to-r from-[var(--ua-blue)] via-[var(--ua-wheat)] to-[var(--pl-crimson)] bg-clip-text text-transparent">

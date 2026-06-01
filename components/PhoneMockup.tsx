@@ -59,9 +59,9 @@ export function PhoneMockup() {
             <div className="h-7 w-7 rounded-full border border-white/55 bg-white/55 backdrop-blur-md" />
           </div>
 
-          {/* UA transcript */}
+          {/* Source transcript */}
           <div className="relative mt-5 px-4">
-            <LangChip code="UA" label="Ukrainian" />
+            <LangChip code="UA" label="Source · auto-detect" />
             <div className="mt-2 rounded-2xl border border-white/45 bg-white/55 px-4 py-3 backdrop-blur-md shadow-sm">
               <p
                 lang="uk"

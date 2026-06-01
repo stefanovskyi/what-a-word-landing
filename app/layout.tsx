@@ -21,23 +21,23 @@ const SITE_URL = "https://what-a-word.app";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "What a Word — Speak Ukrainian, hear Polish. Instantly.",
+    default: "What a Word — Speak any language, hear Polish. Instantly.",
     template: "%s · What a Word",
   },
   description:
-    "Real-time voice interpreter that turns spoken Ukrainian into spoken and written Polish with near-zero latency. Hold the mic, speak, release.",
+    "Real-time voice interpreter that turns any spoken language into spoken and written Polish with near-zero latency. Hold the mic, speak, release.",
   applicationName: "What a Word",
   keywords: [
-    "Ukrainian Polish translator",
-    "voice interpreter",
+    "voice translator to Polish",
+    "real-time interpreter",
     "Gemini Live",
     "PWA",
-    "real-time translation",
+    "multilingual translation",
   ],
   openGraph: {
-    title: "What a Word — Speak Ukrainian, hear Polish.",
+    title: "What a Word — Speak any language, hear Polish.",
     description:
-      "One button between you and a conversation. Hold the mic, speak Ukrainian, hear fluent Polish.",
+      "One button between you and a conversation. Hold the mic, speak — hear fluent Polish back.",
     type: "website",
     url: SITE_URL,
     siteName: "What a Word",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "What a Word",
-    description: "Speak Ukrainian, hear Polish. Instantly.",
+    description: "Speak any language, hear Polish. Instantly.",
   },
 };
 

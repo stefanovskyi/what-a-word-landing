@@ -26,7 +26,7 @@ export function MicBubble({
         {/* Inner glass orb */}
         <div
           role="button"
-          aria-label="Hold to speak Ukrainian"
+          aria-label="Hold to speak"
           tabIndex={0}
           className={cn(
             "mic-breath relative h-full w-full rounded-full",

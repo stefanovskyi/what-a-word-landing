@@ -9,7 +9,7 @@ import { Reveal } from "@/components/Reveal";
 export const metadata = {
   title: "Demo preview",
   description:
-    "Visual preview of the What a Word interpreter — Ukrainian to Polish.",
+    "Visual preview of the What a Word interpreter — any language to Polish.",
 };
 
 const PL_WORDS = ["Cześć,", "jak", "się", "masz?"];
@@ -58,8 +58,8 @@ export default function AppPreviewPage() {
       {/* Transcript stack */}
       <div className="mx-auto mt-6 flex w-full max-w-md flex-1 flex-col gap-4 sm:max-w-lg">
         <Reveal delay={80}>
-          <section aria-label="Ukrainian source transcript">
-            <LangChip code="UA" label="Ukrainian" />
+          <section aria-label="Source transcript">
+            <LangChip code="UA" label="Source · auto-detect" />
             <div className="glass mt-2 rounded-3xl px-5 py-4">
               <p
                 lang="uk"

@@ -23,7 +23,7 @@ export function SiteFooter() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
             <Logo />
             <p className="text-sm text-[var(--text-muted)]">
-              © {year} What a Word. Speak Ukrainian, hear Polish.
+              © {year} What a Word. Speak any language, hear Polish.
             </p>
           </div>
           <div className="flex items-center gap-1.5">

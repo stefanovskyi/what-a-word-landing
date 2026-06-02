@@ -6,6 +6,8 @@ import { Menu, X } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { cn } from "@/lib/utils";
 
+const APP_URL = "https://app.what-a-word.stefanovskyi.com/";
+
 const navLinks = [
   { href: "/#features", label: "Features" },
   { href: "/#how", label: "How it works" },
@@ -56,18 +58,20 @@ export function SiteNav() {
           >
             Sign in
           </Link>
-          <Link
-            href="/app"
+          <a
+            href={APP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className={cn(
               "rounded-lg px-3.5 py-1.5 text-sm font-semibold",
               "bg-[var(--ua-blue)] text-white shadow-sm",
               "hover:-translate-y-0.5 hover:brightness-110",
-              "transition-all duration-200 ease-out",
+              "transition-all duration-200 ease-out cursor-pointer",
               "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]",
             )}
           >
             Install
-          </Link>
+          </a>
         </div>
 
         <button
@@ -121,17 +125,19 @@ export function SiteNav() {
               >
                 Sign in
               </Link>
-              <Link
-                href="/app"
+              <a
+                href={APP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className={cn(
                   "flex-1 rounded-lg px-3 py-2 text-center text-sm font-semibold",
                   "bg-[var(--ua-blue)] text-white",
-                  "hover:brightness-110 transition-all duration-200",
+                  "hover:brightness-110 transition-all duration-200 cursor-pointer",
                 )}
               >
                 Install
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

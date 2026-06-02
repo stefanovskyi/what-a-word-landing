@@ -9,8 +9,9 @@ import {
   Lock,
   ArrowRight,
   Download,
-  Mic,
 } from "lucide-react";
+
+const APP_URL = "https://app.what-a-word.stefanovskyi.com/";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { PhoneMockup } from "@/components/PhoneMockup";
@@ -110,8 +111,10 @@ export default function Home() {
                 className="hero-fade mt-8 flex flex-wrap items-center gap-3"
                 style={{ animationDelay: "240ms" }}
               >
-                <Link
-                  href="/app"
+                <a
+                  href={APP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={cn(
                     "inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold",
                     "bg-[var(--ua-blue)] text-white shadow-[0_8px_24px_rgba(42,91,215,0.35)]",
@@ -120,10 +123,10 @@ export default function Home() {
                     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]",
                   )}
                 >
-                  <Mic className="h-4 w-4" aria-hidden="true" />
-                  Try it free
+                  <Download className="h-4 w-4" aria-hidden="true" />
+                  Install PWA
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </Link>
+                </a>
                 <Link
                   href="/#features"
                   className={cn(
@@ -134,8 +137,7 @@ export default function Home() {
                     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]",
                   )}
                 >
-                  <Download className="h-4 w-4" aria-hidden="true" />
-                  Install PWA
+                  See features
                 </Link>
               </div>
 
@@ -331,8 +333,10 @@ export default function Home() {
                   Sign in and start translating in seconds.
                 </p>
                 <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-                  <Link
-                    href="/sign-in"
+                  <a
+                    href={APP_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={cn(
                       "inline-flex items-center gap-2 rounded-xl px-6 py-3.5 text-base font-semibold",
                       "bg-[var(--ua-blue)] text-white shadow-[0_10px_28px_rgba(42,91,215,0.4)]",
@@ -343,9 +347,9 @@ export default function Home() {
                   >
                     Get started
                     <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                  </Link>
+                  </a>
                   <Link
-                    href="/app"
+                    href="/sign-in"
                     className={cn(
                       "inline-flex items-center gap-2 rounded-xl px-6 py-3.5 text-base font-semibold",
                       "border border-white/55 bg-white/55 text-[var(--text-primary)] backdrop-blur-md",
@@ -354,7 +358,7 @@ export default function Home() {
                       "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]",
                     )}
                   >
-                    See the demo
+                    Sign in
                   </Link>
                 </div>
               </div>

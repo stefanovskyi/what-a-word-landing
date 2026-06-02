@@ -33,12 +33,14 @@ export function SiteFooter() {
             >
               Sign in
             </Link>
-            <Link
-              href="/app"
-              className="rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--text-primary)] hover:bg-white/40 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]"
+            <a
+              href="https://app.what-a-word.stefanovskyi.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--text-primary)] hover:bg-white/40 transition-colors duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]"
             >
-              Demo
-            </Link>
+              Install
+            </a>
             <a
               href="https://github.com"
               target="_blank"

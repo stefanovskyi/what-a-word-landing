@@ -348,18 +348,6 @@ export default function Home() {
                     Get started
                     <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </a>
-                  <Link
-                    href="/sign-in"
-                    className={cn(
-                      "inline-flex items-center gap-2 rounded-xl px-6 py-3.5 text-base font-semibold",
-                      "border border-white/55 bg-white/55 text-[var(--text-primary)] backdrop-blur-md",
-                      "hover:bg-white/75 hover:-translate-y-0.5",
-                      "transition-all duration-200 ease-out cursor-pointer",
-                      "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]",
-                    )}
-                  >
-                    Sign in
-                  </Link>
                 </div>
               </div>
             </Reveal>

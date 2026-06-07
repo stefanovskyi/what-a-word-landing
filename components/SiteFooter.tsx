@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Logo } from "@/components/Logo";
 
 function GithubGlyph() {
@@ -27,12 +26,6 @@ export function SiteFooter() {
             </p>
           </div>
           <div className="flex items-center gap-1.5">
-            <Link
-              href="/sign-in"
-              className="rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--text-primary)] hover:bg-white/40 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]"
-            >
-              Sign in
-            </Link>
             <a
               href="https://app.what-a-word.stefanovskyi.com/"
               target="_blank"

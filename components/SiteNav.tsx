@@ -47,17 +47,6 @@ export function SiteNav() {
         </ul>
 
         <div className="hidden md:flex items-center gap-2">
-          <Link
-            href="/sign-in"
-            className={cn(
-              "rounded-lg px-3 py-1.5 text-sm font-medium",
-              "text-[var(--text-primary)] hover:bg-white/40",
-              "transition-colors duration-200",
-              "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]",
-            )}
-          >
-            Sign in
-          </Link>
           <a
             href={APP_URL}
             target="_blank"
@@ -113,25 +102,14 @@ export function SiteNav() {
                 </Link>
               </li>
             ))}
-            <li className="mt-1 flex gap-2 px-1">
-              <Link
-                href="/sign-in"
-                onClick={() => setOpen(false)}
-                className={cn(
-                  "flex-1 rounded-lg px-3 py-2 text-center text-sm font-medium",
-                  "border border-white/45 bg-white/40 text-[var(--text-primary)]",
-                  "hover:bg-white/60 transition-colors duration-200",
-                )}
-              >
-                Sign in
-              </Link>
+            <li className="mt-1 px-1">
               <a
                 href={APP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className={cn(
-                  "flex-1 rounded-lg px-3 py-2 text-center text-sm font-semibold",
+                  "block w-full rounded-lg px-3 py-2 text-center text-sm font-semibold",
                   "bg-[var(--ua-blue)] text-white",
                   "hover:brightness-110 transition-all duration-200 cursor-pointer",
                 )}

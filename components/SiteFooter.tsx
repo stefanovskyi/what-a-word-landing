@@ -1,4 +1,3 @@
-import { Heart } from "lucide-react";
 import { Logo } from "@/components/Logo";
 
 function GithubGlyph() {
@@ -28,18 +27,6 @@ export function SiteFooter() {
           </div>
           <div className="flex items-center gap-1.5">
             <a
-              href="https://buy.stripe.com/28EdR9e8J6GWcsN35G2Ji00"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--text-primary)] hover:bg-white/40 transition-colors duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[var(--ua-blue)]"
-            >
-              <Heart
-                className="h-3.5 w-3.5 text-[var(--pl-crimson)] transition-all duration-200 group-hover:fill-[var(--pl-crimson)]"
-                aria-hidden="true"
-              />
-              Support
-            </a>
-            <a
               href="https://app.what-a-word.stefanovskyi.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,7 +35,7 @@ export function SiteFooter() {
               Install
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/stefanovskyi/What-a-word"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub repository"
